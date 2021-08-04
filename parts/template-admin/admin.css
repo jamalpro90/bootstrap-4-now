@@ -1,0 +1,14 @@
+.icon h5 i {
+    cursor: pointer;
+}
+.nav-link:hover {
+    background-color: #777;
+}
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 10px;
+    opacity: .6;
+    font-size: 6rem;
+}

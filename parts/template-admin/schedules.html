@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="admin.css">
+  <script src="https://kit.fontawesome.com/a0df2f61c2.js" crossorigin="anonymous"></script>
+
+  <title>Template Admin</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+    <a class="navbar-brand text-white" href="#">Welcome Admin | <b>University Blue Sapphire</b></a>
+
+      <form class="form-inline my-2 my-lg-0 ml-auto">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0 " type="submit">Search</button>
+      </form>
+
+      <div class="icon ml-4 mt-2">
+        <h5>
+          <i class="fas fa-envelope mr-3" data-toggle="tooltip" title="Message"></i>
+          <i class="fas fa-bell mr-3" data-toggle="tooltip" title="Notification"></i>
+          <i class="fas fa-power-off mr-3" data-toggle="tooltip" title="Log Out"></i>
+        </h5>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row no-gutters mt-5">
+    <!-- Side Bar Navigation -->
+    <div class="col-md-2 bg-dark mt-2 p-3">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link text-white active" href="admin.html"><i class="fas fa-tachometer-alt mr-2"></i> Dashboard</a><hr class="bg-secondary">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="student.html"><i class="fas fa-user-graduate mr-2"></i> Students</a><hr class="bg-secondary">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="teacher.html"><i class="fas fa-chalkboard-teacher mr-2"></i> Teachers</a><hr class="bg-secondary">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="employees.html"><i class="fas fa-users mr-2"></i> Employees</a><hr class="bg-secondary">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="schedules.html"><i class="far fa-calendar-alt mr-2"></i> Schedules</a><hr class="bg-secondary">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white mb-3" href="score.html"><i class="fas fa-star mr-2"></i> Students Score</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="col-md-10 p-4">
+      <h2><i class="far fa-calendar-alt mr-3"></i><b>SCHEDULES</b></h2><hr>
+
+      <a href="#" class="btn btn-primary mb-2"><i class="fas fa-plus-square mr-2"></i> Add</a>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">NO</th>
+            <th scope="col">NAME</th>
+            <th scope="col">ADRESS</th>
+            <th scope="col">TID</th>
+            <th colspan="3" scope="col">ACTION</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Amir</td>
+            <td>Los Angles, 30 West-Bos</td>
+            <td>01235798757</td>
+            <td class="text-center"><a href="#" class="btn btn-primary">Detail</a></td>
+            <td class="text-center"><i class="fas fa-edit"></i></td>
+            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td> Amar</td>
+            <td>California, 12 Agrarist</td>
+            <td>@0178645748</td>
+            <td class="text-center"><a href="#" class="btn btn-primary">Detail</a></td>
+            <td class="text-center"><i class="fas fa-edit"></i></td>
+            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Mujena</td>
+            <td>New York, 39 Street-falls</td>
+            <td>019557678345</td>
+            <td class="text-center"><a href="#" class="btn btn-primary">Detail</a></td>
+            <td class="text-center"><i class="fas fa-edit"></i></td>
+            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Jane</td>
+            <td>New Zeland, 44 Warner-While</td>
+            <td>018557678339</td>
+            <td class="text-center"><a href="#" class="btn btn-primary">Detail</a></td>
+            <td class="text-center"><i class="fas fa-edit"></i></td>
+            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Bishop</td>
+            <td>Texas, 28 Hottlest-East</td>
+            <td>019557678345</td>
+            <td class="text-center"><a href="#" class="btn btn-primary">Detail</a></td>
+            <td class="text-center"><i class="fas fa-edit"></i></td>
+            <td class="text-center"><i class="fas fa-trash-alt"></i></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

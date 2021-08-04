@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <title>Modal</title>
+</head>
+<body>
+<br><br>
+  <div class="container">
+    <h2>MEMBUAT POP UP DENGAN MODAL BOOTSTRAP</h2>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contoh1">CONTACT US</button>
+
+    <div class="modal fade" id="contoh1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title">Hallo Guys!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="nama">Nama :</label>
+                <input type="text" class="form-control" id="nama">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+
+              <div class="form-group">
+                <label for="pesan">Tulis Pesan Anda :</label>
+                <textarea id="pesan" rows="5" class="form-control"></textarea>
+              </div>
+
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">SEND</button>
+                <button type="reset" class="btn btn-danger">RESET</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Panjang -->
+    <!-- Scrollable modal -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+      Launch static backdrop modal
+    </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body modal-dialog-scrollable">
+              <div class="modal-dialog-scrollable">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, molestiae inventore! Voluptatibus ea, perferendis consequuntur ipsam dolorem, ipsum dignissimos nulla distinctio corrupti nemo tempore impedit sed sit enim neque necessitatibus! Fuga, error inventore quo sapiente non eligendi ullam mollitia quaerat molestias quod quidem illum minima fugit quae enim. Laborum, vero dolorum nemo eum aut pariatur repellendus, soluta aperiam sint labore asperiores eligendi. Ipsum quos exercitationem minus praesentium asperiores, corporis vero. Nam impedit sed, debitis cupiditate quidem, quasi eaque dolorum libero blanditiis nesciunt iusto nobis animi. Porro non alias dolore voluptatem reiciendis temporibus laborum, dolorum a consequuntur aliquam eius iusto doloremque fugit fugiat ipsam beatae unde dicta nobis laudantium nisi est cupiditate tempore minus? Quibusdam nam nostrum eaque dignissimos distinctio. Labore similique repellendus est neque maxime, distinctio a laudantium dolorem. Repudiandae optio qui quos harum rem fugit sequi tenetur illum similique tempore saepe ex dolores dolorem omnis hic nemo perspiciatis, iusto cupiditate consequatur laudantium iste rerum enim voluptatum eveniet! Quia vel in quaerat inventore. Harum optio voluptas tempore odit eos reprehenderit nostrum, praesentium iure, saepe placeat iste sint asperiores corporis magnam dolor quos officia nesciunt accusantium nulla dignissimos ea vel deleniti, beatae ad! Nisi nobis quasi incidunt? Quidem, voluptatem necessitatibus assumenda asperiores minima blanditiis aut, et inventore beatae sint, minus obcaecati suscipit nobis. Numquam atque veritatis, impedit consectetur quidem sit! Consectetur quas blanditiis iure. Optio ad magni, impedit debitis neque laboriosam doloremque laborum corporis tempora reprehenderit id, nam accusantium aspernatur quae eaque molestias suscipit velit, ut repudiandae sapiente sit autem! Cumque aliquid eum exercitationem quas omnis dolor veniam. Totam, nostrum libero repellendus perferendis ducimus enim recusandae cumque saepe laboriosam ex ea, aliquam pariatur nam voluptate accusantium mollitia laborum. Iste iusto, voluptates ipsa impedit sed beatae praesentium! Dolor, a esse. Adipisci qui ullam incidunt quae vero laudantium aliquid exercitationem placeat possimus praesentium!
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').trigger('focus')
+    })
+  </script>
+</body>
+</html>

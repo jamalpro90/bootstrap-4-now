@@ -1,0 +1,66 @@
+/* jumbotron */
+.jumbotron {
+  background-image: url(img/1.4.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.jumbotron p {
+  font-size: 1.4rem;
+}
+.jumbotron hr {
+  border-color: white;
+  width: 700px;
+}
+.jumbotron .btn {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/* slider / carousel */
+.carousel-item {
+  height: 100vh;
+}
+.slider-menu {
+  /* border: 3px solid white; */
+  padding-bottom: 100px;
+}
+.slider-menu hr {
+  border-color: white;
+  width: 700px;
+}
+.slider-menu .btn {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/* icons */
+.fa-palette {
+  font-size: 2rem;
+}
+
+/* font unti icon */
+.font-icon {
+  font-size: 2.5rem;
+  color: purple;
+}
+
+/* Main content */
+.row .card {
+  transition: all 0.3s;
+}
+.row .card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.row a {
+  text-decoration: none;
+}
